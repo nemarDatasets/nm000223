@@ -1,0 +1,117 @@
+_dataset:
+  class: Lee2024_EL
+  code: Lee2024-EL
+  doi: 10.3389/fnhum.2024.1320457
+  interval:
+  - 0
+  - 1
+  n_subjects: 15
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 31
+  hardware: actiCHamp (Brain Products)
+  line_freq: 60.0
+  montage: standard_1020
+  n_channels: 31
+  reference: linked mastoids
+  sampling_rate: 500.0
+  sensor_type: active
+  sensors:
+  - Fp1
+  - Fpz
+  - Fp2
+  - F7
+  - F3
+  - Fz
+  - F4
+  - F8
+  - FT9
+  - FC5
+  - FC1
+  - FC2
+  - FC6
+  - FT10
+  - T7
+  - C3
+  - Cz
+  - C4
+  - T8
+  - CP5
+  - CP1
+  - CP2
+  - CP6
+  - P7
+  - P3
+  - Pz
+  - P4
+  - P8
+  - O1
+  - Oz
+  - O2
+bci_application:
+  applications:
+  - home_appliance_control
+  environment: laboratory
+  online_feedback: true
+data_structure:
+  n_trials: 50 training + 30 testing blocks per subject
+  trials_context: per_subject
+documentation:
+  country: KR
+  data_url: https://github.com/jml226/Home-Appliance-Control-Dataset
+  doi: 10.3389/fnhum.2024.1320457
+  institution: Ulsan National Institute of Science and Technology
+  investigators:
+  - Jongmin Lee
+  - Minju Kim
+  - Dojin Heo
+  - Jongsu Kim
+  - Min-Ki Kim
+  - Taejun Lee
+  - Jongwoo Park
+  - HyunYoung Kim
+  - Minho Hwang
+  - Laehyun Kim
+  - Sung-Phil Kim
+  license: CC-BY-4.0
+  publication_year: 2024
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  feedback_type: visual
+  mode: online
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: flash
+  study_design: P300 BCI for EL home appliance control; 4-class oddball; LCD display
+  trial_duration: 1.0
+file_format: MATLAB
+paradigm_specific:
+  detected_paradigm: p300
+  soa_ms: 750.0
+participants:
+  age_mean: 22.13
+  age_std: 2.2
+  gender:
+    female: 5
+    male: 10
+  health_status: healthy
+  n_subjects: 15
+  species: human
+runs_per_session: 1
+sessions_per_subject: 1
+tags:
+  modality:
+  - ERP
+  pathology:
+  - Healthy
+  type:
+  - P300
