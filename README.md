@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000223-blue)](https://doi.org/10.82901/nemar.nm000223)
+
 # Electric light control experiment (15 subjects, 4 classes, 31 EEG ch)
 
 Electric light control experiment (15 subjects, 4 classes, 31 EEG ch).
