@@ -1,45 +1,47 @@
 {
-	"Name": "Electric light control experiment (15 subjects, 4 classes, 31 EEG ch)",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-4.0",
-	"Authors": [
-		"Jongmin Lee",
-		"Minju Kim",
-		"Dojin Heo",
-		"Jongsu Kim",
-		"Min-Ki Kim",
-		"Taejun Lee",
-		"Jongwoo Park",
-		"HyunYoung Kim",
-		"Minho Hwang",
-		"Laehyun Kim",
-		"Sung-Phil Kim"
-	],
-	"ReferencesAndLinks": [
-		"https://github.com/jml226/Home-Appliance-Control-Dataset"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.3389/fnhum.2024.1320457",
-			"URL": "https://github.com/jml226/Home-Appliance-Control-Dataset"
-		}
-	],
-	"Keywords": [
-		"Healthy",
-		"ERP",
-		"P300",
-		"p300",
-		"home_appliance_control"
-	],
-	"PublicationYear": 2024
+  "Name": "Electric light control experiment (15 subjects, 4 classes, 31 EEG ch)",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Jongmin Lee",
+    "Minju Kim",
+    "Dojin Heo",
+    "Jongsu Kim",
+    "Min-Ki Kim",
+    "Taejun Lee",
+    "Jongwoo Park",
+    "HyunYoung Kim",
+    "Minho Hwang",
+    "Laehyun Kim",
+    "Sung-Phil Kim"
+  ],
+  "ReferencesAndLinks": [
+    "https://github.com/jml226/Home-Appliance-Control-Dataset"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.3389/fnhum.2024.1320457",
+      "URL": "https://github.com/jml226/Home-Appliance-Control-Dataset"
+    }
+  ],
+  "Keywords": [
+    "Healthy",
+    "ERP",
+    "P300",
+    "p300",
+    "home_appliance_control"
+  ],
+  "PublicationYear": 2024,
+  "DatasetDOI": "10.82901/nemar.nm000223",
+  "Version": "1.0.0"
 }
