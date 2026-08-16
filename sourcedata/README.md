@@ -6,12 +6,12 @@ URL remaining reachable.
 
 | | |
 |---|---|
-| MOABB class | `moabb.datasets.Lee2024_EL` (moabb 1.5.0) |
-| Retrieved | 2026-08-11 |
-| Files | 480 |
-| Total size | 649.8 MB |
-| License | CC-BY-4.0 |
-| Upstream DOI | 10.3389/fnhum.2024.1320457 |
+| MOABB class | `moabb.datasets.Lee2024_EL` (moabb 1.5.0dev0) |
+| Retrieved | 2026-08-13 |
+| Files | 481 |
+| Total size | 651.1 MB |
+| License | see dataset_description.json |
+| Upstream DOI | None |
 
 File **contents** are byte-for-byte as retrieved; no conversion was applied. Filenames are the upstream names: MOABB's local cache stores each download as `<name>/<md5>-<name>`, and that cache-only hash prefix and wrapper directory were removed.
 Per-file SHA-256 checksums are in `sourcedata_provenance.json`.
