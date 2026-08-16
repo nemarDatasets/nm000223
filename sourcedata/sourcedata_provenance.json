@@ -1,15 +1,15 @@
 {
  "dataset": "nm000223",
  "moabb_class": "Lee2024_EL",
- "moabb_version_used": "1.5.0",
- "retrieved": "2026-08-11",
- "retrieved_by": "moabb.datasets.Lee2024_EL.data_path()",
+ "moabb_version_used": "1.5.0dev0",
+ "retrieved": "2026-08-13",
+ "retrieved_by": "--from-dir (moabb data_path bypassed)",
  "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-lee2024erp-data/ElectricLight",
- "license": "CC-BY-4.0",
- "doi": "10.3389/fnhum.2024.1320457",
+ "license": "see dataset_description.json",
+ "doi": null,
  "naming": "upstream_filenames_restored",
- "n_files": 480,
- "total_bytes": 649826905,
+ "n_files": 481,
+ "total_bytes": 651097856,
  "files": [
   {
    "file": "Dat_sub01/cal_sig.mat",
@@ -2090,6 +2090,12 @@
    "file": "Dat_sub13/sub13_Training.mat",
    "bytes": 24490884,
    "sha256": "158fff148eec3f907e933158ce35e59fcd3489fc5305f90a2f36aed704f55860"
+  },
+  {
+   "file": "Dat_sub13/sub13_Training1.mat",
+   "bytes": 1270951,
+   "sha256": "4c15a3366721a2f5694f745982c10938bcf2a631beab70d16d250e176bf3a574",
+   "subject": ""
   },
   {
    "file": "Dat_sub14/cal_sig.mat",
