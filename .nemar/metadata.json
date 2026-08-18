@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Electric light control experiment (15 subjects, 4 classes, 31 EEG ch)",
-  "description": "A P300-based brain-computer interface dataset for home appliance control, comprising EEG recordings from 15 healthy subjects performing a visual oddball task with 31-channel recordings at 500 Hz sampling rate. The dataset includes 50 training and 30 testing trials per subject, with target and non-target stimulus classifications for evaluating BCI performance in an online feedback paradigm. This is a derivative dataset processed from the original research study.",
-  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) at 500 Hz sampling rate with linked mastoid reference and active sensors. Participants performed a P300 oddball task with visual flash stimuli presented on an LCD display at 750 ms stimulus onset asynchrony. The standard 10-20 electrode montage was used with 60 Hz line frequency filtering.",
+  "description": "This dataset comprises EEG recordings from 15 healthy subjects performing a P300-based brain-computer interface task for home appliance control. The experiment employed a visual oddball paradigm with 31-channel EEG acquisition at 500 Hz, yielding target and non-target event classifications across 50 training and 30 testing trials per subject. The data supports the development and benchmarking of P300-based BCI systems for practical applications in smart home environments.",
+  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) at 500 Hz sampling rate with linked mastoid reference and active sensors. The standard 10-20 electrode montage was employed. Subjects performed a visual oddball task with flash stimuli presented on an LCD display at 750 ms stimulus onset asynchrony, with trial duration of 1.0 s. Visual feedback was provided during online BCI operation.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -39,16 +39,13 @@
       "term": "oddball paradigm"
     },
     {
-      "term": "visual oddball"
-    },
-    {
       "term": "home appliance control"
     },
     {
-      "term": "Healthy"
+      "term": "ERP"
     },
     {
-      "term": "ERP"
+      "term": "healthy"
     }
   ],
   "related_identifiers": [
@@ -95,5 +92,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "bcc021770550d0e9f09077ddefd55a62b8f2bdb82918dd7b86cdfde414e4c1f3"
+  "source_hash": "a81ea257f800eea03a97f81cfbb6d309b5c9ae9bf4df5107d761a7cd5a59b015"
 }
