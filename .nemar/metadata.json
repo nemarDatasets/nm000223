@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Electric light control experiment (15 subjects, 4 classes, 31 EEG ch)",
-  "description": "This dataset comprises EEG recordings from 15 healthy subjects performing a P300-based brain-computer interface task for home appliance control. The experiment employed a visual oddball paradigm with 31-channel EEG acquisition at 500 Hz, yielding target and non-target event classifications across 50 training and 30 testing trials per subject. The data supports the development and benchmarking of P300-based BCI systems for practical applications in smart home environments.",
-  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) at 500 Hz sampling rate with linked mastoid reference and active sensors. The standard 10-20 electrode montage was employed. Subjects performed a visual oddball task with flash stimuli presented on an LCD display at 750 ms stimulus onset asynchrony, with trial duration of 1.0 s. Visual feedback was provided during online BCI operation.",
+  "description": "EEG dataset from 15 healthy participants performing a P300-based brain-computer interface task to control an electric light home appliance. Signals were recorded from 31 scalp channels at 500 Hz while participants viewed flashing visual stimuli on an LCD display in a four-class oddball paradigm with target and non-target events. The recordings support research on ERP-based BCIs for home appliance control and inter-subject transfer learning.",
+  "methods_description": "EEG was recorded with an actiCHamp (Brain Products) active-electrode system using 31 channels in the standard 10-20 montage, sampled at 500 Hz and referenced to linked mastoids. Each subject completed one session with 50 training and 30 testing blocks. Visual flash stimuli were presented with a 750 ms stimulus onset asynchrony, with online visual feedback.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,25 +27,23 @@
       "term": "P300"
     },
     {
-      "term": "brain-computer interface"
-    },
-    {
       "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "oddball paradigm"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "home appliance control"
     },
     {
-      "term": "ERP"
+      "term": "oddball paradigm"
     },
     {
-      "term": "healthy"
+      "term": "visual stimulation"
     }
   ],
   "related_identifiers": [
@@ -81,7 +79,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.3 GB (947 files)"
+    "1.22 GB (947 files)"
   ],
   "formats": [
     ".bdf",
